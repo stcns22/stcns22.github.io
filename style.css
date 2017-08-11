@@ -10,6 +10,7 @@ body {
   color:darkgray; /* there needs to be a darker gray */
 }
 
+
 h1, h2, h3 {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
@@ -46,7 +47,7 @@ header {
   background-color:azure;
   background-image: url(sosa.jpg);
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -77,6 +78,11 @@ header p {
   opacity: .9;
   position: relative;
   top: 360px;
+}
+
+banner{
+	background-color: #800bf3; !important
+	background-image: none;	
 }
 
 section h1 {
